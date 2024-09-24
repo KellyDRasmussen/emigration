@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_97e1214cbae6fd3e2ee6abf8f0690fd6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_97e1214cbae6fd3e2ee6abf8f0690fd6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_97e1214cbae6fd3e2ee6abf8f0690fd6 = L.map(
+                "map_97e1214cbae6fd3e2ee6abf8f0690fd6",
+                {
+                    center: [56.26392, 9.501785],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4bf4066ce1bfc40125f7487dc8e89499 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4bf4066ce1bfc40125f7487dc8e89499.addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+            var circle_marker_ae9cc46c8ba8ea1647bf3f7022df92e4 = L.circleMarker(
+                [51.1657, 10.4515],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_703aedb00a40a384aa7c5c25931016e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a097a17845f35799a4179172b0a8086 = $(`<div id="html_6a097a17845f35799a4179172b0a8086" style="width: 100.0%; height: 100.0%;">Germany: 800 emigrants</div>`)[0];
+                popup_703aedb00a40a384aa7c5c25931016e4.setContent(html_6a097a17845f35799a4179172b0a8086);
+            
+        
+
+        circle_marker_ae9cc46c8ba8ea1647bf3f7022df92e4.bindPopup(popup_703aedb00a40a384aa7c5c25931016e4)
+        ;
+
+        
+    
+    
+            var circle_marker_ad2cff7f324a3a7212d9e7f7060f737c = L.circleMarker(
+                [60.1282, 18.6435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.70138017565872, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_2408198c3b0cd3b49549c3ee34a79f8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_834c9fbfaf16fcb002b624ac9fca2e13 = $(`<div id="html_834c9fbfaf16fcb002b624ac9fca2e13" style="width: 100.0%; height: 100.0%;">Sweden: 731 emigrants</div>`)[0];
+                popup_2408198c3b0cd3b49549c3ee34a79f8a.setContent(html_834c9fbfaf16fcb002b624ac9fca2e13);
+            
+        
+
+        circle_marker_ad2cff7f324a3a7212d9e7f7060f737c.bindPopup(popup_2408198c3b0cd3b49549c3ee34a79f8a)
+        ;
+
+        
+    
+    
+            var circle_marker_0b009dc4a275faaace07d23b38ab4596 = L.circleMarker(
+                [55.3781, -3.436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.840652446675032, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_0e8ce08417198438c194e7d306aea130 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_985d889cb3dab68edeeb22a2198976dc = $(`<div id="html_985d889cb3dab68edeeb22a2198976dc" style="width: 100.0%; height: 100.0%;">United Kingdom: 579 emigrants</div>`)[0];
+                popup_0e8ce08417198438c194e7d306aea130.setContent(html_985d889cb3dab68edeeb22a2198976dc);
+            
+        
+
+        circle_marker_0b009dc4a275faaace07d23b38ab4596.bindPopup(popup_0e8ce08417198438c194e7d306aea130)
+        ;
+
+        
+    
+    
+            var circle_marker_84b634a507a55a0db3580792974176fc = L.circleMarker(
+                [37.0902, -95.7129],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.313676286072774, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_dd55de1f8d84486fcc5b2a0bd8632f4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_946f1e74a4c5a58f597a2d710fee6da4 = $(`<div id="html_946f1e74a4c5a58f597a2d710fee6da4" style="width: 100.0%; height: 100.0%;">USA: 551 emigrants</div>`)[0];
+                popup_dd55de1f8d84486fcc5b2a0bd8632f4a.setContent(html_946f1e74a4c5a58f597a2d710fee6da4);
+            
+        
+
+        circle_marker_84b634a507a55a0db3580792974176fc.bindPopup(popup_dd55de1f8d84486fcc5b2a0bd8632f4a)
+        ;
+
+        
+    
+    
+            var circle_marker_cae7d1292e117c5f9675a2651cc95150 = L.circleMarker(
+                [40.4637, -3.7492],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.864491844416563, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_fe81dfbc6a8a04d2089f308c97d2e086 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d09a7d2e3d82a6bd97b98575f60354d1 = $(`<div id="html_d09a7d2e3d82a6bd97b98575f60354d1" style="width: 100.0%; height: 100.0%;">Spain: 474 emigrants</div>`)[0];
+                popup_fe81dfbc6a8a04d2089f308c97d2e086.setContent(html_d09a7d2e3d82a6bd97b98575f60354d1);
+            
+        
+
+        circle_marker_cae7d1292e117c5f9675a2651cc95150.bindPopup(popup_fe81dfbc6a8a04d2089f308c97d2e086)
+        ;
+
+        
+    
+    
+            var circle_marker_fd66ef8af461d032f1b051b8ecf5557b = L.circleMarker(
+                [52.1326, 5.2913],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.73525721455458, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_520d16e05697665260fd2ddd2e07df55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d81ec8c47e4652daead556d7f8353169 = $(`<div id="html_d81ec8c47e4652daead556d7f8353169" style="width: 100.0%; height: 100.0%;">Netherlands: 414 emigrants</div>`)[0];
+                popup_520d16e05697665260fd2ddd2e07df55.setContent(html_d81ec8c47e4652daead556d7f8353169);
+            
+        
+
+        circle_marker_fd66ef8af461d032f1b051b8ecf5557b.bindPopup(popup_520d16e05697665260fd2ddd2e07df55)
+        ;
+
+        
+    
+    
+            var circle_marker_59d7feab987f864695cc542b180d05ff = L.circleMarker(
+                [60.472, 8.4689],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.777917189460478, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_8b55d15b82a25c6001989cf0a4a9276f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_502fce94103aeaa79a03f848889069d1 = $(`<div id="html_502fce94103aeaa79a03f848889069d1" style="width: 100.0%; height: 100.0%;">Norway: 310 emigrants</div>`)[0];
+                popup_8b55d15b82a25c6001989cf0a4a9276f.setContent(html_502fce94103aeaa79a03f848889069d1);
+            
+        
+
+        circle_marker_59d7feab987f864695cc542b180d05ff.bindPopup(popup_8b55d15b82a25c6001989cf0a4a9276f)
+        ;
+
+        
+    
+    
+            var circle_marker_a286c33782612e5cce9bd24e63f7eddf = L.circleMarker(
+                [-38.4161, -63.6167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.19447929736512, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_146f880d230088ac512fe775c8e4bffa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e51eb8f4590d776885b232ddd0bb3f7 = $(`<div id="html_3e51eb8f4590d776885b232ddd0bb3f7" style="width: 100.0%; height: 100.0%;">Argentina: 279 emigrants</div>`)[0];
+                popup_146f880d230088ac512fe775c8e4bffa.setContent(html_3e51eb8f4590d776885b232ddd0bb3f7);
+            
+        
+
+        circle_marker_a286c33782612e5cce9bd24e63f7eddf.bindPopup(popup_146f880d230088ac512fe775c8e4bffa)
+        ;
+
+        
+    
+    
+            var circle_marker_f8668be09a533ba4c121400bb720d031 = L.circleMarker(
+                [56.1304, -106.3468],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.949811794228356, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_8a05a28dcc89fc4c8d70961f9a5e07f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9149a47692e499edf9c4d622a53dc903 = $(`<div id="html_9149a47692e499edf9c4d622a53dc903" style="width: 100.0%; height: 100.0%;">Canada: 266 emigrants</div>`)[0];
+                popup_8a05a28dcc89fc4c8d70961f9a5e07f7.setContent(html_9149a47692e499edf9c4d622a53dc903);
+            
+        
+
+        circle_marker_f8668be09a533ba4c121400bb720d031.bindPopup(popup_8a05a28dcc89fc4c8d70961f9a5e07f7)
+        ;
+
+        
+    
+    
+            var circle_marker_dc27a4a6399a3966702c5abd6a40c003 = L.circleMarker(
+                [46.8182, 8.2275],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.949811794228356, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_1b03af81300aa20dafb4dda55e1e2bce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eabd0dededeed9c873afb2c641724205 = $(`<div id="html_eabd0dededeed9c873afb2c641724205" style="width: 100.0%; height: 100.0%;">Switzerland: 266 emigrants</div>`)[0];
+                popup_1b03af81300aa20dafb4dda55e1e2bce.setContent(html_eabd0dededeed9c873afb2c641724205);
+            
+        
+
+        circle_marker_dc27a4a6399a3966702c5abd6a40c003.bindPopup(popup_1b03af81300aa20dafb4dda55e1e2bce)
+        ;
+
+        
+    
+    
+            var circle_marker_d21e5ded997a6b081d2ed2313efacd4e = L.circleMarker(
+                [46.6034, 1.8883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.460476787954832, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_990e87cf328eeae386edb81d1cf1535b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b61ef8f9ea278c6c0f7a46978453701e = $(`<div id="html_b61ef8f9ea278c6c0f7a46978453701e" style="width: 100.0%; height: 100.0%;">France: 240 emigrants</div>`)[0];
+                popup_990e87cf328eeae386edb81d1cf1535b.setContent(html_b61ef8f9ea278c6c0f7a46978453701e);
+            
+        
+
+        circle_marker_d21e5ded997a6b081d2ed2313efacd4e.bindPopup(popup_990e87cf328eeae386edb81d1cf1535b)
+        ;
+
+        
+    
+    
+            var circle_marker_4d52d235ac41cc93e591baf60f150171 = L.circleMarker(
+                [-25.2744, 133.7751],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.272271016311166, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_555f6aa0dd3f0ff038b9bf369c014367 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6af017467ca5b47a2e0c261114447bf = $(`<div id="html_d6af017467ca5b47a2e0c261114447bf" style="width: 100.0%; height: 100.0%;">Australia: 230 emigrants</div>`)[0];
+                popup_555f6aa0dd3f0ff038b9bf369c014367.setContent(html_d6af017467ca5b47a2e0c261114447bf);
+            
+        
+
+        circle_marker_4d52d235ac41cc93e591baf60f150171.bindPopup(popup_555f6aa0dd3f0ff038b9bf369c014367)
+        ;
+
+        
+    
+    
+            var circle_marker_bdc94967ad1d84581d42ec103228e32c = L.circleMarker(
+                [39.3999, -8.2245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.046424090338771, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_4936e59eb4e0ccf181e53df689a7707e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a27eeab73d1abd03aabc5c87e9852785 = $(`<div id="html_a27eeab73d1abd03aabc5c87e9852785" style="width: 100.0%; height: 100.0%;">Portugal: 218 emigrants</div>`)[0];
+                popup_4936e59eb4e0ccf181e53df689a7707e.setContent(html_a27eeab73d1abd03aabc5c87e9852785);
+            
+        
+
+        circle_marker_bdc94967ad1d84581d42ec103228e32c.bindPopup(popup_4936e59eb4e0ccf181e53df689a7707e)
+        ;
+
+        
+    
+    
+            var circle_marker_74742038b3e2fdb8f53dc40704952c29 = L.circleMarker(
+                [41.8719, 12.5674],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.557089084065245, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_29a2b35862fc6568e38e6ff5f980816c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a0c4f48a160149f6e3561b4c8217272 = $(`<div id="html_2a0c4f48a160149f6e3561b4c8217272" style="width: 100.0%; height: 100.0%;">Italy: 192 emigrants</div>`)[0];
+                popup_29a2b35862fc6568e38e6ff5f980816c.setContent(html_2a0c4f48a160149f6e3561b4c8217272);
+            
+        
+
+        circle_marker_74742038b3e2fdb8f53dc40704952c29.bindPopup(popup_29a2b35862fc6568e38e6ff5f980816c)
+        ;
+
+        
+    
+    
+            var circle_marker_7a6fc9396fd960be14af1df1673f7a35 = L.circleMarker(
+                [51.9194, 19.1451],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.124215809284818, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_aa409593c33e118f63ed726603a78eae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_792ca996e730e016a93b0680c40713ae = $(`<div id="html_792ca996e730e016a93b0680c40713ae" style="width: 100.0%; height: 100.0%;">Poland: 169 emigrants</div>`)[0];
+                popup_aa409593c33e118f63ed726603a78eae.setContent(html_792ca996e730e016a93b0680c40713ae);
+            
+        
+
+        circle_marker_7a6fc9396fd960be14af1df1673f7a35.bindPopup(popup_aa409593c33e118f63ed726603a78eae)
+        ;
+
+        
+    
+    
+            var circle_marker_a076efa0c536e0c4c445ef4cbe79e9cb = L.circleMarker(
+                [50.8503, 4.3517],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.80426599749059, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_49088918feb21e41eda2bb723308d89c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8119ae4d332ef9392b7e53490bca9cef = $(`<div id="html_8119ae4d332ef9392b7e53490bca9cef" style="width: 100.0%; height: 100.0%;">Belgium: 152 emigrants</div>`)[0];
+                popup_49088918feb21e41eda2bb723308d89c.setContent(html_8119ae4d332ef9392b7e53490bca9cef);
+            
+        
+
+        circle_marker_a076efa0c536e0c4c445ef4cbe79e9cb.bindPopup(popup_49088918feb21e41eda2bb723308d89c)
+        ;
+
+        
+    
+    
+            var circle_marker_b6b2f4d6ae70e1df8d4b43a73a00ee0d = L.circleMarker(
+                [23.4241, 53.8478],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.277289836888331, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_a48761c9a61e19b2d631c15dbc83ee9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57a797899142bdb6a012666607269517 = $(`<div id="html_57a797899142bdb6a012666607269517" style="width: 100.0%; height: 100.0%;">United Arab Emirates: 124 emigrants</div>`)[0];
+                popup_a48761c9a61e19b2d631c15dbc83ee9c.setContent(html_57a797899142bdb6a012666607269517);
+            
+        
+
+        circle_marker_b6b2f4d6ae70e1df8d4b43a73a00ee0d.bindPopup(popup_a48761c9a61e19b2d631c15dbc83ee9c)
+        ;
+
+        
+    
+    
+            var circle_marker_e8b58d828449563e7c129e04a115ea43 = L.circleMarker(
+                [47.5162, 14.5501],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.070263488080301, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_841cfbcd54c9912ba93898381b8e7ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6bd66b92d7bc75a0484ff47a921e7ef = $(`<div id="html_a6bd66b92d7bc75a0484ff47a921e7ef" style="width: 100.0%; height: 100.0%;">Austria: 113 emigrants</div>`)[0];
+                popup_841cfbcd54c9912ba93898381b8e7ae1.setContent(html_a6bd66b92d7bc75a0484ff47a921e7ef);
+            
+        
+
+        circle_marker_e8b58d828449563e7c129e04a115ea43.bindPopup(popup_841cfbcd54c9912ba93898381b8e7ae1)
+        ;
+
+        
+    
+    
+            var circle_marker_1d19e7b79b55b0a5f161d9f983e10706 = L.circleMarker(
+                [53.4129, -8.2439],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0514429109159344, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_d7c91e31b7ca49ea7aae7c0d7ac6505c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edaf6e4f5abd2e906cf9a0cc87a06ff6 = $(`<div id="html_edaf6e4f5abd2e906cf9a0cc87a06ff6" style="width: 100.0%; height: 100.0%;">Ireland: 112 emigrants</div>`)[0];
+                popup_d7c91e31b7ca49ea7aae7c0d7ac6505c.setContent(html_edaf6e4f5abd2e906cf9a0cc87a06ff6);
+            
+        
+
+        circle_marker_1d19e7b79b55b0a5f161d9f983e10706.bindPopup(popup_d7c91e31b7ca49ea7aae7c0d7ac6505c)
+        ;
+
+        
+    
+    
+            var circle_marker_4c1d60d174aecf14778093250456adcd = L.circleMarker(
+                [61.9241, 25.7482],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.938519447929736, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_cf52da040e5fa4886c07e3d0c3a2d23e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04917115411375b30fc5538deddc4a14 = $(`<div id="html_04917115411375b30fc5538deddc4a14" style="width: 100.0%; height: 100.0%;">Finland: 106 emigrants</div>`)[0];
+                popup_cf52da040e5fa4886c07e3d0c3a2d23e.setContent(html_04917115411375b30fc5538deddc4a14);
+            
+        
+
+        circle_marker_4c1d60d174aecf14778093250456adcd.bindPopup(popup_cf52da040e5fa4886c07e3d0c3a2d23e)
+        ;
+
+        
+    
+    
+            var circle_marker_007c15eb737a3f8d081a685f88f75ab4 = L.circleMarker(
+                [38.9637, 35.2433],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.91969887076537, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_db274317f1f3de783d117af16491f98f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_388f6ddc6224c9960bf3ed653842a30d = $(`<div id="html_388f6ddc6224c9960bf3ed653842a30d" style="width: 100.0%; height: 100.0%;">Turkey: 105 emigrants</div>`)[0];
+                popup_db274317f1f3de783d117af16491f98f.setContent(html_388f6ddc6224c9960bf3ed653842a30d);
+            
+        
+
+        circle_marker_007c15eb737a3f8d081a685f88f75ab4.bindPopup(popup_db274317f1f3de783d117af16491f98f)
+        ;
+
+        
+    
+    
+            var circle_marker_90ccd109b64b886ee631b6abc84ec6e9 = L.circleMarker(
+                [1.3521, 103.8198],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.9974905897114175, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_2c2e19e2e3374ec1d7028c5852d292e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ba36a53a971605606a74104bfa3f1ad = $(`<div id="html_8ba36a53a971605606a74104bfa3f1ad" style="width: 100.0%; height: 100.0%;">Singapore: 56 emigrants</div>`)[0];
+                popup_2c2e19e2e3374ec1d7028c5852d292e9.setContent(html_8ba36a53a971605606a74104bfa3f1ad);
+            
+        
+
+        circle_marker_90ccd109b64b886ee631b6abc84ec6e9.bindPopup(popup_2c2e19e2e3374ec1d7028c5852d292e9)
+        ;
+
+        
+    
+    
+            var circle_marker_8378468c4b983d27843e5a67ed0803c0 = L.circleMarker(
+                [-40.9006, 174.886],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.884567126725219, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_ac55a5e7e8700dccf2616bfec817b3ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eeb38eeaf4d84af2c293d9ef18695126 = $(`<div id="html_eeb38eeaf4d84af2c293d9ef18695126" style="width: 100.0%; height: 100.0%;">New Zealand: 50 emigrants</div>`)[0];
+                popup_ac55a5e7e8700dccf2616bfec817b3ba.setContent(html_eeb38eeaf4d84af2c293d9ef18695126);
+            
+        
+
+        circle_marker_8378468c4b983d27843e5a67ed0803c0.bindPopup(popup_ac55a5e7e8700dccf2616bfec817b3ba)
+        ;
+
+        
+    
+    
+            var circle_marker_7f649ed3d4ba9d5ae76e874bef9ff8df = L.circleMarker(
+                [-14.235, -51.9253],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.790464240903388, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_b85c6bb1880f98c4eaefd3eccd855edb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33ea12432b089cb77a5b26beb7cd6286 = $(`<div id="html_33ea12432b089cb77a5b26beb7cd6286" style="width: 100.0%; height: 100.0%;">Brazil: 45 emigrants</div>`)[0];
+                popup_b85c6bb1880f98c4eaefd3eccd855edb.setContent(html_33ea12432b089cb77a5b26beb7cd6286);
+            
+        
+
+        circle_marker_7f649ed3d4ba9d5ae76e874bef9ff8df.bindPopup(popup_b85c6bb1880f98c4eaefd3eccd855edb)
+        ;
+
+        
+    
+    
+            var circle_marker_ceed67b397d2aaebcb4c9987e882a844 = L.circleMarker(
+                [36.2048, 138.2529],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.696361355081556, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_41d3c038bbf0cb6ec3c29b13fe1e1e08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d8ca9a4787971ec734bb484dc335d74 = $(`<div id="html_5d8ca9a4787971ec734bb484dc335d74" style="width: 100.0%; height: 100.0%;">Japan: 40 emigrants</div>`)[0];
+                popup_41d3c038bbf0cb6ec3c29b13fe1e1e08.setContent(html_5d8ca9a4787971ec734bb484dc335d74);
+            
+        
+
+        circle_marker_ceed67b397d2aaebcb4c9987e882a844.bindPopup(popup_41d3c038bbf0cb6ec3c29b13fe1e1e08)
+        ;
+
+        
+    
+    
+            var circle_marker_8cc7ea38c5db6b9b35ce65da58938c7f = L.circleMarker(
+                [64.9631, -19.0208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.545796737766625, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_80739ce64e0085d3cb3f0fc047b84f52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41e63b4d8b0de4391d5ab9b1c183f505 = $(`<div id="html_41e63b4d8b0de4391d5ab9b1c183f505" style="width: 100.0%; height: 100.0%;">Iceland: 32 emigrants</div>`)[0];
+                popup_80739ce64e0085d3cb3f0fc047b84f52.setContent(html_41e63b4d8b0de4391d5ab9b1c183f505);
+            
+        
+
+        circle_marker_8cc7ea38c5db6b9b35ce65da58938c7f.bindPopup(popup_80739ce64e0085d3cb3f0fc047b84f52)
+        ;
+
+        
+    
+    
+            var circle_marker_008a7419b793b69c50ac85ec14f8cc4c = L.circleMarker(
+                [55.1694, 23.8813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.489335006273525, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_7d796fd85773106055e07f202cbdc0df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88bbbd815c10093f54993cf508086f0c = $(`<div id="html_88bbbd815c10093f54993cf508086f0c" style="width: 100.0%; height: 100.0%;">Lithuania: 29 emigrants</div>`)[0];
+                popup_7d796fd85773106055e07f202cbdc0df.setContent(html_88bbbd815c10093f54993cf508086f0c);
+            
+        
+
+        circle_marker_008a7419b793b69c50ac85ec14f8cc4c.bindPopup(popup_7d796fd85773106055e07f202cbdc0df)
+        ;
+
+        
+    
+    
+            var circle_marker_3a6921cabb869f5cb17970a3186ae109 = L.circleMarker(
+                [39.0742, 21.8243],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.470514429109159, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_d382e091ccba6ce7d2ece7602f0042bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b10baeabde575c57f2e012658729c30a = $(`<div id="html_b10baeabde575c57f2e012658729c30a" style="width: 100.0%; height: 100.0%;">Greece: 28 emigrants</div>`)[0];
+                popup_d382e091ccba6ce7d2ece7602f0042bf.setContent(html_b10baeabde575c57f2e012658729c30a);
+            
+        
+
+        circle_marker_3a6921cabb869f5cb17970a3186ae109.bindPopup(popup_d382e091ccba6ce7d2ece7602f0042bf)
+        ;
+
+        
+    
+    
+            var circle_marker_5dbd392b2d1727141154072478227992 = L.circleMarker(
+                [35.8617, 104.1954],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.470514429109159, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_6ede00cb6f51a77b421ee21160e9b2ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b6b5d369572b9f024015daacfe1cd3b = $(`<div id="html_6b6b5d369572b9f024015daacfe1cd3b" style="width: 100.0%; height: 100.0%;">China: 28 emigrants</div>`)[0];
+                popup_6ede00cb6f51a77b421ee21160e9b2ca.setContent(html_6b6b5d369572b9f024015daacfe1cd3b);
+            
+        
+
+        circle_marker_5dbd392b2d1727141154072478227992.bindPopup(popup_6ede00cb6f51a77b421ee21160e9b2ca)
+        ;
+
+        
+    
+    
+            var circle_marker_f996f28a2b2b0267e6914f9e28aa8e92 = L.circleMarker(
+                [31.0461, 34.8516],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.451693851944793, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_a04da6344c0800aae67aae4d1cd4fca7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e7d5e21b3d6349d48ae1102b583c2ea = $(`<div id="html_8e7d5e21b3d6349d48ae1102b583c2ea" style="width: 100.0%; height: 100.0%;">Israel: 27 emigrants</div>`)[0];
+                popup_a04da6344c0800aae67aae4d1cd4fca7.setContent(html_8e7d5e21b3d6349d48ae1102b583c2ea);
+            
+        
+
+        circle_marker_f996f28a2b2b0267e6914f9e28aa8e92.bindPopup(popup_a04da6344c0800aae67aae4d1cd4fca7)
+        ;
+
+        
+    
+    
+            var circle_marker_0c328cac5af27d540d702f967d2f2025 = L.circleMarker(
+                [49.8153, 6.1296],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.451693851944793, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_8d622799382eee6584fd16836428c513 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86ca688b936d9b89990cbf9431016242 = $(`<div id="html_86ca688b936d9b89990cbf9431016242" style="width: 100.0%; height: 100.0%;">Luxembourg: 27 emigrants</div>`)[0];
+                popup_8d622799382eee6584fd16836428c513.setContent(html_86ca688b936d9b89990cbf9431016242);
+            
+        
+
+        circle_marker_0c328cac5af27d540d702f967d2f2025.bindPopup(popup_8d622799382eee6584fd16836428c513)
+        ;
+
+        
+    
+    
+            var circle_marker_5e976a73a733bcbfaf4135359c4b6868 = L.circleMarker(
+                [35.9078, 127.7669],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.451693851944793, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_4f370d3a29786538d01d88e814b1b21b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa85f03dd01471d9434640d3331b2d6d = $(`<div id="html_fa85f03dd01471d9434640d3331b2d6d" style="width: 100.0%; height: 100.0%;">South Korea: 27 emigrants</div>`)[0];
+                popup_4f370d3a29786538d01d88e814b1b21b.setContent(html_fa85f03dd01471d9434640d3331b2d6d);
+            
+        
+
+        circle_marker_5e976a73a733bcbfaf4135359c4b6868.bindPopup(popup_4f370d3a29786538d01d88e814b1b21b)
+        ;
+
+        
+    
+    
+            var circle_marker_9fb362f4507bbe3846b606d93e0b0a6a = L.circleMarker(
+                [15.87, 100.9925],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.41405269761606, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_64c8fbc1d95f1247475d7bd5f5276b29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_014850fa36932328da8ebe4bc5520505 = $(`<div id="html_014850fa36932328da8ebe4bc5520505" style="width: 100.0%; height: 100.0%;">Thailand: 25 emigrants</div>`)[0];
+                popup_64c8fbc1d95f1247475d7bd5f5276b29.setContent(html_014850fa36932328da8ebe4bc5520505);
+            
+        
+
+        circle_marker_9fb362f4507bbe3846b606d93e0b0a6a.bindPopup(popup_64c8fbc1d95f1247475d7bd5f5276b29)
+        ;
+
+        
+    
+    
+            var circle_marker_dc94bec9521dab25240194ac67c390c5 = L.circleMarker(
+                [20.5937, 78.9629],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.395232120451694, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_68b8597f197da5ec7acc4efab6a4cc9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3f281e0da17478954a32504a9e38768 = $(`<div id="html_f3f281e0da17478954a32504a9e38768" style="width: 100.0%; height: 100.0%;">India: 24 emigrants</div>`)[0];
+                popup_68b8597f197da5ec7acc4efab6a4cc9d.setContent(html_f3f281e0da17478954a32504a9e38768);
+            
+        
+
+        circle_marker_dc94bec9521dab25240194ac67c390c5.bindPopup(popup_68b8597f197da5ec7acc4efab6a4cc9d)
+        ;
+
+        
+    
+    
+            var circle_marker_e0cf9dfabb76f4e9d1505464dbe71a54 = L.circleMarker(
+                [-30.5595, 22.9375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.376411543287327, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_fb49cc12166b6b509c3bcd450a4f93bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19bdc39f46230f3a25a62aee0a0a2e17 = $(`<div id="html_19bdc39f46230f3a25a62aee0a0a2e17" style="width: 100.0%; height: 100.0%;">South Africa: 23 emigrants</div>`)[0];
+                popup_fb49cc12166b6b509c3bcd450a4f93bd.setContent(html_19bdc39f46230f3a25a62aee0a0a2e17);
+            
+        
+
+        circle_marker_e0cf9dfabb76f4e9d1505464dbe71a54.bindPopup(popup_fb49cc12166b6b509c3bcd450a4f93bd)
+        ;
+
+        
+    
+    
+            var circle_marker_42de9f5177eba387d9ffc25a6f45545f = L.circleMarker(
+                [56.8796, 24.6032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.263488080301129, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_8fb1bb7f9e84c38762247e5fd7c73954 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fa8aeb22b55ccc3f1f01cfb730d4cfc = $(`<div id="html_9fa8aeb22b55ccc3f1f01cfb730d4cfc" style="width: 100.0%; height: 100.0%;">Latvia: 17 emigrants</div>`)[0];
+                popup_8fb1bb7f9e84c38762247e5fd7c73954.setContent(html_9fa8aeb22b55ccc3f1f01cfb730d4cfc);
+            
+        
+
+        circle_marker_42de9f5177eba387d9ffc25a6f45545f.bindPopup(popup_8fb1bb7f9e84c38762247e5fd7c73954)
+        ;
+
+        
+    
+    
+            var circle_marker_734b63a111cefd462fdf9363be4f2fbf = L.circleMarker(
+                [58.5953, 25.0136],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.225846925972396, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_ac744656edf864933d67977b871db1ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be74b495802ea4f56d03c87d87bef54f = $(`<div id="html_be74b495802ea4f56d03c87d87bef54f" style="width: 100.0%; height: 100.0%;">Estonia: 15 emigrants</div>`)[0];
+                popup_ac744656edf864933d67977b871db1ba.setContent(html_be74b495802ea4f56d03c87d87bef54f);
+            
+        
+
+        circle_marker_734b63a111cefd462fdf9363be4f2fbf.bindPopup(popup_ac744656edf864933d67977b871db1ba)
+        ;
+
+        
+    
+    
+            var circle_marker_031b3a46cf009faa85607b1dd6a416ad = L.circleMarker(
+                [23.6345, -102.5528],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.225846925972396, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_8ec30dc429d571dbb70c7d13c63560c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4a1ac0d0dca33c1bfd615b46c6e4a45 = $(`<div id="html_c4a1ac0d0dca33c1bfd615b46c6e4a45" style="width: 100.0%; height: 100.0%;">Mexico: 15 emigrants</div>`)[0];
+                popup_8ec30dc429d571dbb70c7d13c63560c7.setContent(html_c4a1ac0d0dca33c1bfd615b46c6e4a45);
+            
+        
+
+        circle_marker_031b3a46cf009faa85607b1dd6a416ad.bindPopup(popup_8ec30dc429d571dbb70c7d13c63560c7)
+        ;
+
+        
+    
+    
+            var circle_marker_46b52c04294a4c3cd8874b18d2e032a3 = L.circleMarker(
+                [61.524, 105.3188],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.20702634880803, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_7c767817c4e468336f1ae9a5fa00bb46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_015b3d148e9c189f827e4ef403b3c046 = $(`<div id="html_015b3d148e9c189f827e4ef403b3c046" style="width: 100.0%; height: 100.0%;">Russia: 14 emigrants</div>`)[0];
+                popup_7c767817c4e468336f1ae9a5fa00bb46.setContent(html_015b3d148e9c189f827e4ef403b3c046);
+            
+        
+
+        circle_marker_46b52c04294a4c3cd8874b18d2e032a3.bindPopup(popup_7c767817c4e468336f1ae9a5fa00bb46)
+        ;
+
+        
+    
+    
+            var circle_marker_8f00c5c34571367fbdc845a7fc6510bd = L.circleMarker(
+                [-35.6751, -71.543],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.20702634880803, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_b8382089030a63a7a826bfd1771f4cfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e58056f90430a4dc243878a8d5af020a = $(`<div id="html_e58056f90430a4dc243878a8d5af020a" style="width: 100.0%; height: 100.0%;">Chile: 14 emigrants</div>`)[0];
+                popup_b8382089030a63a7a826bfd1771f4cfe.setContent(html_e58056f90430a4dc243878a8d5af020a);
+            
+        
+
+        circle_marker_8f00c5c34571367fbdc845a7fc6510bd.bindPopup(popup_b8382089030a63a7a826bfd1771f4cfe)
+        ;
+
+        
+    
+    
+            var circle_marker_3b87de60026c1eea78fd01d9437db6e0 = L.circleMarker(
+                [4.2105, 101.9758],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.188205771643664, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_3fabdc396f956515afec557f99ff0e39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd3cbd1a77c33a6b2400f00a1518c28c = $(`<div id="html_bd3cbd1a77c33a6b2400f00a1518c28c" style="width: 100.0%; height: 100.0%;">Malaysia: 13 emigrants</div>`)[0];
+                popup_3fabdc396f956515afec557f99ff0e39.setContent(html_bd3cbd1a77c33a6b2400f00a1518c28c);
+            
+        
+
+        circle_marker_3b87de60026c1eea78fd01d9437db6e0.bindPopup(popup_3fabdc396f956515afec557f99ff0e39)
+        ;
+
+        
+    
+    
+            var circle_marker_9d1ed49ef4fe4d351eb0ede6d9c93ace = L.circleMarker(
+                [23.8859, 45.0792],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.169385194479298, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_520b8a438ccf10a19bd7a730f5876b4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f17f4b5f615c0ada1a253fb7789ba240 = $(`<div id="html_f17f4b5f615c0ada1a253fb7789ba240" style="width: 100.0%; height: 100.0%;">Saudi Arabia: 12 emigrants</div>`)[0];
+                popup_520b8a438ccf10a19bd7a730f5876b4a.setContent(html_f17f4b5f615c0ada1a253fb7789ba240);
+            
+        
+
+        circle_marker_9d1ed49ef4fe4d351eb0ede6d9c93ace.bindPopup(popup_520b8a438ccf10a19bd7a730f5876b4a)
+        ;
+
+        
+    
+    
+            var circle_marker_f0e07418de45444cb8dc52928ba1af13 = L.circleMarker(
+                [12.8797, 121.774],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.169385194479298, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_2d9a0be0b791b1497095ea0be93059f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e52d35113220055da78d3bb54151267 = $(`<div id="html_9e52d35113220055da78d3bb54151267" style="width: 100.0%; height: 100.0%;">Philippines: 12 emigrants</div>`)[0];
+                popup_2d9a0be0b791b1497095ea0be93059f7.setContent(html_9e52d35113220055da78d3bb54151267);
+            
+        
+
+        circle_marker_f0e07418de45444cb8dc52928ba1af13.bindPopup(popup_2d9a0be0b791b1497095ea0be93059f7)
+        ;
+
+        
+    
+    
+            var circle_marker_754d7139c2fcb6a32d779511ba4b373f = L.circleMarker(
+                [-0.7893, 113.9213],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.094102885821832, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_51ac7c736a96437f71acd79775ead263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9159d04d28d549eeaddc61f52410c965 = $(`<div id="html_9159d04d28d549eeaddc61f52410c965" style="width: 100.0%; height: 100.0%;">Indonesia: 8 emigrants</div>`)[0];
+                popup_51ac7c736a96437f71acd79775ead263.setContent(html_9159d04d28d549eeaddc61f52410c965);
+            
+        
+
+        circle_marker_754d7139c2fcb6a32d779511ba4b373f.bindPopup(popup_51ac7c736a96437f71acd79775ead263)
+        ;
+
+        
+    
+    
+            var circle_marker_b91f5da5be638fc0f492f340771f4eed = L.circleMarker(
+                [14.0583, 108.2772],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.075282308657465, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_967b6a70c78bd51d71aefd5aa3adcded = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd279589aab87a0c84ad98ed6e926603 = $(`<div id="html_cd279589aab87a0c84ad98ed6e926603" style="width: 100.0%; height: 100.0%;">Vietnam: 7 emigrants</div>`)[0];
+                popup_967b6a70c78bd51d71aefd5aa3adcded.setContent(html_cd279589aab87a0c84ad98ed6e926603);
+            
+        
+
+        circle_marker_b91f5da5be638fc0f492f340771f4eed.bindPopup(popup_967b6a70c78bd51d71aefd5aa3adcded)
+        ;
+
+        
+    
+    
+            var circle_marker_f638fb4e89ae17c7f366ee3ca2502624 = L.circleMarker(
+                [26.8206, 30.8025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.075282308657465, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_68e01ac62185ba397295c1d8d76bc517 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2165fad2defd5d3b4ef23bfeaf852f14 = $(`<div id="html_2165fad2defd5d3b4ef23bfeaf852f14" style="width: 100.0%; height: 100.0%;">Egypt: 7 emigrants</div>`)[0];
+                popup_68e01ac62185ba397295c1d8d76bc517.setContent(html_2165fad2defd5d3b4ef23bfeaf852f14);
+            
+        
+
+        circle_marker_f638fb4e89ae17c7f366ee3ca2502624.bindPopup(popup_68e01ac62185ba397295c1d8d76bc517)
+        ;
+
+        
+    
+    
+            var circle_marker_02c52c8789369c6cdae872b9952d2cfd = L.circleMarker(
+                [31.7917, -7.0926],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 3}
+            ).addTo(map_97e1214cbae6fd3e2ee6abf8f0690fd6);
+        
+    
+        var popup_d370f02b6a5d4de5aa3d151f5ca669e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69a89ef3901dfb23ca94cf5115871c5e = $(`<div id="html_69a89ef3901dfb23ca94cf5115871c5e" style="width: 100.0%; height: 100.0%;">Morocco: 3 emigrants</div>`)[0];
+                popup_d370f02b6a5d4de5aa3d151f5ca669e2.setContent(html_69a89ef3901dfb23ca94cf5115871c5e);
+            
+        
+
+        circle_marker_02c52c8789369c6cdae872b9952d2cfd.bindPopup(popup_d370f02b6a5d4de5aa3d151f5ca669e2)
+        ;
+
+        
+    
+</script>
+</html>
